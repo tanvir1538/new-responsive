@@ -1,0 +1,149 @@
+.freture-description {
+    max-width: 568px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color:#727272;
+}
+.freture-title {
+    max-width: 468px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    color:#131313;
+    margin-bottom: 10px;
+
+}
+.card-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    color:#131313;
+}
+.card-description{
+     font-size: 1rem;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color:#727272;
+    margin-top:20px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 586px;
+    height:171px;
+    /* max-height: 145px; */
+    padding: 20px 42px 20px 30px;
+    box-shadow:0px 4px  4px  0px  rgba(0, 0, 0, 0.25);
+    margin-top: 0px;
+}
+.text-side{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.left-side{
+    /* height:auto; */
+    width:582px;
+    display: flex;
+    flex-direction: column;
+}
+#freture-id{
+    border-left:5px solid rgb(255, 144, 14);
+    padding-left: 21px;
+
+}
+.text-image{
+    margin:120px 240px;
+    /* height:auto; */
+    max-width:1440px;
+    display: flex;
+    gap:200px;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+.im-1 img{
+    
+  width: 100%;
+}
+.img+bu{
+    display: flex;
+    flex-direction: column;
+    /* margin:-200px -120px; */
+
+}
+#year{
+    font-size: 4rem;
+    font-weight: bold;
+    color:#FFFFFF;
+    font-family: "Work Sans", sans-serif;
+
+
+}
+#Experience{
+    font-size: 1.5rem;
+    font-weight:500;
+    color:#FFFFFF;
+    font-family: "Work Sans", sans-serif;
+    
+
+}
+.button-10{
+    height: 200px;
+    width:342px;
+    background-color: #FF900E;
+    margin:-90px -80px;
+
+}
+.fact-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+    text-align:left;
+
+}
+.some-facts{
+    font:2.8rem;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 2px;
+}
+.some-fact-description{
+    font:1rem;
+    font-weight:400;
+    font-family: "Work Sans", sans-serif;
+}
+@media screen and (max-width:576px){
+    .text-image{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        margin:20px 20px;
+        gap:20px;
+
+    }
+    .card-container{
+         width: 100%;
+        padding: 10px;
+    }
+    .left-side{
+        width:100%;
+        margin:0px 200px 0px 300px;
+    }
+    .im-1 img{
+        width: 80%;
+    }
+    .button-10{
+        margin-top: 40px;
+        margin-left: 200px;
+        
+    }
+    .fact-div{
+        margin-top:60px;
+        margin-left: auto;
+        text-align: left;
+    }
+}
